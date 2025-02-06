@@ -12,7 +12,7 @@ export default function MastersLayout(){
         <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
             <Stack
                 screenOptions={{
-                    headerShown: true,
+                    headerShown: false,
                 }}
             >
                 <Stack.Screen name="Registration" options={{title: "Registro"}}/>
